@@ -358,6 +358,10 @@ const handleNotTally = async (props) => {
   }
 };
 
+useEffect(() => {
+  loadTransaction();
+}, [render]);
+
   return (
     <>
       <Center>
